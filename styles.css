@@ -1,0 +1,35 @@
+* {
+  background-color: #464d5c;
+}
+
+#calcWrapper {
+  margin: 20rem 35rem;
+}
+
+#calc {
+  display: flex;
+  flex-direction: column;
+  align-items: space-evenly;
+}
+
+input {
+  margin: 0.5rem 20rem;
+  background-color: #567582;
+  text-align: center;
+  font-weight: bold;
+}
+
+button {
+  margin: 0.3rem 15rem;
+  background-color: #b89068;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.result {
+  color: white;
+  border: 3px solid #567582;
+  text-align: center;
+  height: 2rem;
+}
